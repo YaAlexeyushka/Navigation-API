@@ -39,7 +39,7 @@ class BlankFragment3 : Fragment() {
         val view: View = inflater.inflate(R.layout.fragment3, container, false)
         val btn4: Button = view.findViewById(R.id.button4)
         btn4.setOnClickListener { _ ->
-            findNavController().navigate(R.id.action_blankFragment3_to_main2Activity)
+            findNavController().navigate(R.id.action_blankFragment3_to_blankFragment6)
         }
         val btn4Back: Button = view.findViewById(R.id.button4_back)
         btn4Back.setOnClickListener { _ ->
